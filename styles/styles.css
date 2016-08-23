@@ -23,7 +23,9 @@ header {
 .nav.navbar-nav li a.active {
     color: black
 }
-
+.navbar-toggle .icon-bar {
+    background-color: black
+}
 #socialmediaicons img {
     float: right;
     margin-right: 15px;
@@ -49,8 +51,13 @@ h1 {
 }
 
 main {
-    margin-top: 220px;
+    margin-top: 112px;
     padding-left: 8px
+}
+@media only screen and (min-width: 993px){
+    main{
+        margin-top:220px;
+    }
 }
 
 ul {

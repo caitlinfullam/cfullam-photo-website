@@ -21,9 +21,28 @@ $(window).on("load", function() {
         }
         rows.each(normalizeRow)
     }
-    fixHeightOnRows()
+    //fixHeightOnRows()
 
-    $(window).resize(function() {
-        fixHeightOnRows()
-    })
+    //$(window).resize(function() {
+    //    fixHeightOnRows()
+    //})
+    
+    $('.grid').isotope({
+      itemSelector: '.grid-item',
+      layoutMode: 'masonry',
+      percentPosition: true,
+      masonry: {
+        columnWidth: '.grid-sizer',
+        gutter: '.gutter-sizer'
+      }
+    });
+
+    var header = $("#fixed-nav .navbar-nav");
+    $(document).scroll(function(e) {
+        if($(this).scrollTop() > $(".navbar-nav").position().top) {
+            header.css({"position" : "fixed", "top" : "0"});
+        } else {
+            header.css("position", "relative");
+        }
+    });
 })

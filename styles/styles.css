@@ -1,3 +1,12 @@
+header#fixed-nav {
+    position: inherit;
+}
+
+header#fixed-nav  .navbar-nav {
+  z-index: 20;
+  background: #FFFFFF;
+}
+
 header {
     position: fixed;
     /* Make it stick, even on scroll */
@@ -48,6 +57,10 @@ h1 {
     padding-bottom: 10px;
     padding-left: 8px;
     letter-spacing: 3.5px;
+}
+
+main#no-margin {
+  margin-top: 0px;
 }
 
 main {
@@ -115,13 +128,6 @@ p {
     text-align: justify;
 }
 
-.contactmelist {
-    padding-left: 48px;
-    font-family: "Calibri", Helvetica, sans-serif;
-    float: left;
-    text-align: left;
-}
-
 main.aboutme {
     margin-right: 48px;
     margin-bottom: 100px;
@@ -133,13 +139,6 @@ img.photoofme {
     margin-bottom: 5px;
 }
 
-img.contactmephoto {
-    padding-left: 48px;
-    float: right;
-    padding-bottom: 100px;
-    padding-right: 48px;
-}
-
 .backtotop {
     float: right;
     padding-right: 48px;
@@ -147,8 +146,39 @@ img.contactmephoto {
     color: black;
 }
 
+.project-link {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  right: 30%;
+  font-size: 4rem;
+  color: purple;
+}
+
+.grid-item,.grid-sizer{
+  float: left;
+  width: 32%;
+  margin-bottom: 20px;
+
+}
+.gutter-sizer {
+  width: 1%;
+}
+
+.isotope:after {
+    content: '';
+      display: block;
+        clear: both;
+      }
+
+.workwithme-subheader {
+  font-style: italic;
+}
+
 footer {
     font-family: "Calibri", Helvetica, sans-serif;
     padding-left: 8px;
     margin-top: 200px;
 }
+

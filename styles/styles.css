@@ -1,40 +1,38 @@
-header#fixed-nav {
-    position: inherit;
-}
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
-header#fixed-nav  .navbar-nav {
-  z-index: 20;
-  background: #FFFFFF;
+* {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 header {
-    position: fixed;
-    /* Make it stick, even on scroll */
-    z-index: 10;
-    background: #FFFFFF;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    padding-left: 40px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    font-family: "Calibri", Helvetica, sans-serif;
-    color: black;
-    font-size: 150%;
-    letter-spacing: 2px;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: #333;
+  text-transform: uppercase;
 }
 
-.nav.navbar-nav li a {
-    color: darkgray;
+.notbootstrap-navbar li {
+  display: inline;
+  text-align: center;
+  margin-right: 30px;
 }
 
-.nav.navbar-nav li a.active {
-    color: black
+.notbootstrap-navbar li a {
+  color: #9c9c9c;
+  text-transform: uppercase;
+  text-decoration: none;
 }
-.navbar-toggle .icon-bar {
-    background-color: black
+
+.notbootstrap-navbar li:hover a {
+  color: #333;
 }
+
+.notbootstrap-navbar li.active a {
+  color: #333;
+}
+
 #socialmediaicons img {
     float: right;
     margin-right: 15px;
@@ -50,32 +48,9 @@ header {
 }
 
 h1 {
-    color: black;
-    font-family: "Calibri", Helvetica, sans-serif;
-    font-size: 300%;
-    font-weight: 80%;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    letter-spacing: 3.5px;
+  font-size: 2.5rem;
 }
 
-main#no-margin {
-  margin-top: 0px;
-}
-
-main {
-    margin-top: 112px;
-    padding-left: 8px
-}
-@media only screen and (min-width: 993px){
-    main{
-        margin-top:220px;
-    }
-}
-
-ul {
-    list-style-type: none;
-}
 .col a img:hover {
     opacity: 0.7;
 }
@@ -122,7 +97,6 @@ img.scale {
 
 p {
     padding-left: 48px;
-    font-family: "Calibri", Helvetica, sans-serif;
     font-size: 125%;
     letter-spacing: 1.5px;
     text-align: justify;
@@ -142,7 +116,6 @@ img.photoofme {
 .backtotop {
     float: right;
     padding-right: 48px;
-    font-family: "Calibri", Helvetica, sans-serif;
     color: black;
 }
 
@@ -177,7 +150,6 @@ img.photoofme {
 }
 
 footer {
-    font-family: "Calibri", Helvetica, sans-serif;
     padding-left: 8px;
     margin-top: 200px;
 }

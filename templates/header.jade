@@ -1,0 +1,35 @@
+-
+  var menu = { 
+    'photography': { 
+      url: '/', 
+      target: '_self' 
+    }, 'about': {
+      url: '/about/', 
+      target: '_self'
+    }, 'work with me': {
+      url: '/work-with-me/', 
+      target: '_self'
+    }, 'blog': {
+      url: 'https://blog.caitlinfullam.com/',
+      target: '_blank'
+    }
+  }
+
+header#fixed-nav(role='“banner”')
+  nav.navbar(role='navigation')
+    button.navbar-toggle(type='button', data-toggle='collapse', data-target='#myNavbar')
+      span.icon-bar
+      span.icon-bar
+      span.icon-bar
+    a(href="/")
+      h1 caitlin fullam
+    #myNavbar.collapse.navbar-collapse
+      ul.notbootstrap-navbar
+        each data, key in menu
+          if key == selected
+            li.active
+              a(href=data.url, target=data.target)= key
+          else
+            li
+              a(href=data.url, target=data.target)= key
+

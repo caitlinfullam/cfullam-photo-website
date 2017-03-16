@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat');
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.navbar h1 {
+  color: #333;
+}
+.navbar h1:hover {
+  opacity: 0.75;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar li {
+  display: inline;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.navbar .navbar-toggle {
+  background: #9c9c9c;
+  z-index: 100;
+}
+.navbar .navbar-toggle .icon-bar{
+  background: white;
+}
+
+.notbootstrap-navbar li a {
+  color: #9c9c9c;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.notbootstrap-navbar li:hover a {
+  color: #333;
+}
+
+.notbootstrap-navbar li.active a {
+  color: #333;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+#socialmediaicons img {
+    float: right;
+    margin-right: 15px;
+    opacity: .7;
+}
+
+#socialmediaicons img:hover {
+    opacity: .3;
+}
+
+#socialmediaicons {
+    margin-right: 50px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.col a img:hover {
+    opacity: 0.7;
+}
+.two .col {
+    height: 100%;
+}
+
+.three .col {
+    resize: both;
+    max-width:100%;
+    height: 100%;
+}
+.threeacross {
+    width: 100%;
+    height:100%;
+}
+.twoacross {
+    width: 100%;
+    height: 100%;
+}
+.crop-height{
+   overflow:hidden;
+    resize:none;
+}
+img.scale {
+  /* corrects inline gap in enclosing div */
+  display: block;
+  max-width: 100%;
+  /* just in case, to force correct aspect ratio */
+  height: auto !important;
+  width: auto\9; /* ie8+9 */
+}
+
+@media only screen and (min-width: 993px){
+  .three {
+    padding-left: 48px;
+    padding-right: 48px;
+  }  
+    .two {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+}
+
+p {
+    padding-left: 48px;
+    font-size: 125%;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+main.aboutme {
+    margin-right: 48px;
+    margin-bottom: 100px;
+}
+
+main.aboutme p {
+    margin-bottom: 32px;
+}
+
+main.aboutme a {
+    cursor: pointer;
+}
+
+img.photoofme {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 5px;
+}
+
+.backtotop {
+    float: right;
+    padding-right: 48px;
+    color: black;
+}
+
+/* INDEX PAGE */
+
+.portfolio-gutter-sizer {
+  width: 1%;
+}
+
+.portfolio-row {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+.portfolio-column {
+  padding: 0;
+  width: 100%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .portfolio-column {
+    width: 49.5%;
+  }
+  .portfolio-column.first-portfolio-column {
+    margin-right: 1%;
+  }
+}
+
+.image-with-box {
+  text-align: center;
+  position: relative;
+}
+
+.block-button-container {
+  text-align: center;
+  width: auto;
+
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left:0;
+  right:0;
+  bottom:0;
+  color:#fff;
+  height: 1rem;
+}
+
+.project-link {
+  border: 2px solid white;
+  color: white;
+  padding: 21px 34px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  background-color: white;
+  color: #333;
+  text-decoration: none;
+}
+
+/* PROJECT PAGES */
+
+/* clear fix */
+.isotope:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-item:hover {
+  opacity: 0.9;
+}
+
+.grid-item img {
+  width: 100%;
+}
+
+.grid-item,.grid-sizer{
+  float: left;
+  width: 100%;
+  margin-bottom: 0.5%;
+}
+@media (min-width: 768px) {
+  .grid-item,.grid-sizer{
+    width: 33%;
+  }
+}
+.project-gutter-sizer {
+  width: 0.5%;
+}
+
+/* WORK WITH ME */
+
+/* Custom Grid for First name / Last name */
+.contactme-column {
+  padding: 0;
+}
+@media (min-width: 768px) {
+  .first-column {
+    width: 48%;
+    margin-right: 2%;
+  }
+  .second-column {
+    width: 50%;
+  }
+}
+
+.sublabel {
+  font-size: 1.15rem;
+  padding-top: .4rem;
+  padding-bottom: 1.9rem;
+}
+
+.padded-label {
+  padding-top: 1rem;
+}
+
+.control-label {
+  font-family: 'Montserrat';
+  display: block;
+}
+
+.workwithme-header {
+  font-size: 1.8rem;
+}
+
+#inputMsg {
+  height: 100px;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 25px;
+}
+
+.socialmediaicons {
+  list-style: none;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.socialmediaicons li {
+  display: inline;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.socialmediaicons li:hover {
+  opacity: 0.7;
+}

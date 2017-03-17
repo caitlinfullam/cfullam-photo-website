@@ -7,7 +7,7 @@ images:
   - IMG_3535.jpg
   - 170212-10.jpg
   - 170212-22.jpg
-  - IMG_2855.jpg
+  - IMG_2855.JPG
   - IMG_2309.jpg
   - IMG_3366.jpg
   - IMG_2722.JPG

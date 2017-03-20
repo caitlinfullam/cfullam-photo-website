@@ -16,6 +16,7 @@ $(window).on("load", function() {
         }
       });
       $grid.on('arrangeComplete', changeBottomMarginOnProjectPage);
+      $grid.on('arrangeComplete', showIsotope);
 
       var oldMedLarge = $("body").width() >= 768;
 

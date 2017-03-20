@@ -9,12 +9,12 @@ html(lang='“en”')
     main(role='“main”')
       .grid
         a(name='top')
-        .grid-sizer
-        .project-gutter-sizer.gutter-sizer
         each image in images
           .grid-item
             a(href='/images/' + prefix + '/large/' + image, data-lightbox='photoset')
               img(src='/images/' + prefix + '/small/' + image, data-lightbox='photoset')
+        .grid-sizer
+        .project-gutter-sizer.gutter-sizer
     hr
 
     include footer

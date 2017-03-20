@@ -6,13 +6,11 @@ images:
   - IMG_4495.jpg
   - IMG_3535.jpg
   - 170212-10.jpg
-  - 170212-22.jpg
   - IMG_2855.JPG
   - IMG_2309.jpg
   - IMG_3366.jpg
   - IMG_2722.JPG
   - IMG_1643.jpg
-  - IMG_7354.jpg
   - IMG_3869.jpg
   - 170212-47.jpg
   - IMG_6991.jpg
@@ -21,7 +19,6 @@ images:
   - IMG_3605.jpg
   - IMG_5241.jpg
   - IMG_4433.jpg
-  - IMG_3854.jpg
   - IMG_2361.jpg
   - IMG_3173.JPG
   - IMG_3352.jpg
@@ -31,7 +28,5 @@ images:
   - IMG_4502.jpg
   - IMG_4989.jpg
   - 170212-55.jpg
-  - IMG_5182.jpg
-  - IMG_7180.jpg
   - IMG_7364.jpg
 ---

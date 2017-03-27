@@ -9,7 +9,7 @@ images:
   - IMG_1803.jpg
   - IMG_3499.JPG
   - IMG_2755.JPG 
-  - IMG_1758-2.jpg
+  - IMG_1758-2.JPG
   - IMG_3681.JPG
   - IMG_0511-2.jpg
   - IMG_3393.JPG

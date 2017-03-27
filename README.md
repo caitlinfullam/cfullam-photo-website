@@ -27,6 +27,7 @@ http-server
 ```
 
 ## Deploying
+http://krishicks.com/post/subtree-gh-pages/
 
 ```bash
 git add .

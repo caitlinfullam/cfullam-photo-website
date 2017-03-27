@@ -31,6 +31,7 @@ $(window).on("load", function() {
               gutter: '.gutter-sizer'
             }
           });
+          $grid.on('arrangeComplete', changeBottomMarginOnProjectPage);
         }
       });
     }

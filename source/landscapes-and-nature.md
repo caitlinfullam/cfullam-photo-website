@@ -5,20 +5,17 @@ prefix: landscapes-and-nature
 images:
   - IMG_0315-2.jpg
   - IMG_1928.jpg
-  - IMG_0322-2.jpg
+  - IMG_8190.jpg
   - IMG_1776.jpg
   - IMG_2353.jpg
   - IMG_1814.jpg
-  - IMG_2077.jpg
   - IMG_2506_LR.jpg
-  - IMG_2204.jpg
   - horseshoebend.JPG
   - IMG_2475-2.JPG
   - IMG_2534-2.JPG
   - IMG_2587-2.JPG  
   - IMG_7222.jpg
   - IMG_2565.jpg
-  - IMG_2738.jpg
   - IMG_0318-2.jpg
   - IMG_2744.jpg
   - IMG_6838.jpg
@@ -33,7 +30,7 @@ images:
   - IMG_6054.jpg
   - IMG_6664.jpg
   - IMG_7412.jpg
-  - IMG_8190.jpg
+  - IMG_0322-2.jpg
   - IMG_7929.jpg
   - IMG_7992.jpg
   - IMG_7857.jpg

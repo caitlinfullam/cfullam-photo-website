@@ -9,7 +9,7 @@ images:
   - IMG_2855.JPG
   - IMG_2309.jpg
   - IMG_3366.jpg
-  - _MG_0417.JPG
+  - IMG_0417.JPG
   - IMG_1643.jpg
   - IMG_3869.jpg
   - 170212-47.jpg

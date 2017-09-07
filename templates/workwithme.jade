@@ -3,15 +3,37 @@ html
   head
     include head
 
-  body
+  body#workwithme
     - var selected = "work with me"
     include header
 
     main#no-margin(role='“main”')
       .container
         .row
-          .col-sm-6.col-sm-offset-3.centered-text
-            h3.workwithme-header Please feel free to reach out if you’d like to work together or have any questions regarding licensing or prints. I’d love to hear from you!
+          .col-sm-6
+            h3.workwithme-header PORTRAITS: 
+            p.inline-p If you take a look through my portfolio you will notice that capturing emotion is what I do best. In all of my portrait sessions I aim to have a great time with my clients, to laugh, and to encapsulate your personality, your essence, and your beauty in amazing images you will cherish forever.  My favorite shoots involve a little adventuring and I have lots of ideas of stunning locations around the Boulder/Denver area for photo shoots. 
+            br
+            br
+
+            // p Type of portrait shoots I offer: solo portraits, engagement/couples sessions, natural light headshots, & maternity. 
+
+
+          .col-sm-6
+            h3.workwithme-header BRANDS: 
+            p.inline-p Whether it be creating interesting, engaging visual content that represents your brand’s vision or consulting on social media campaigns to get the word out, or developing and organizing your photography brand assets, I can help you bring your ideas to life. I have experience working on multiple social media channels and creating thought-provoking, unique photography assets that will help your brand stand out from the rest.
+            br
+            br
+
+          .col-sm-8.col-sm-offset-2.quotes
+            p "Amazing shoot! The photographs are stunning and Caitlin was fun to work with. Very talented, energetic and had great ideas.” - Isa M.
+
+            p "Caitlin was more than amazing for an engagement session! She went out to check out locations and gave us plenty of options in full detail. Not only was she great at putting together a photoshoot but was also fun to work with!” - Irene & Nick
+
+            p "Caitlin not only takes your photo, but makes your vision come to life….She captures the very essence of your soul.”  - Maegan M.
+ 
+            p "Caitlin was great to work with for our engagement photographs.  She is approachable and fun to be around during the day of the shoot... Not only was the day of shooting the photos an enjoyable experience but we were very happy with the work product for our save the dates for our wedding. I would recommend Caitlin as a photographer for those who want to not only capture the beauty and love you share with our significant other, but also do so in a way that captures the beauty of the natural world around you both!” - Emily & Karlek
+
         .row
           .col-sm-12
             form(action='https://formspree.io/fullam.caitlin@gmail.com', method='POST')

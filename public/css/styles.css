@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Montserrat');
 
 * {
   font-family: 'Josefin Sans', sans-serif;
@@ -275,6 +275,22 @@ img.photoofme {
 
 .workwithme-header {
   font-size: 1.8rem;
+  display: inline;
+}
+
+.inline-p {
+  display: inline;
+  padding-left: 0px;
+}
+
+#workwithme .quotes p {
+  font-weight: 300;
+  font-style: italic;
+}
+
+#workwithme p {
+  font-size: 1.6rem;
+  letter-spacing: inherit;
 }
 
 #inputMsg {
